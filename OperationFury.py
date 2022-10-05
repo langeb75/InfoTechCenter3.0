@@ -17,3 +17,7 @@ colorama.init(strip=False, autoreset=True)
 print(Fore.RED + "\n\nWelcome to Operation Fury InfoTech Center")
 sleep(2)
 print("\033[1;36m \nOperation Fury's Operation System Booting Up")
+
+for i in range(2):
+    print("OS Booting Up")
+    sleep(1)
